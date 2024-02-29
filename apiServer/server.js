@@ -11,6 +11,8 @@ var log4js= require('log4js');
 var logger = log4js.getLogger('servicepr-admin');
 var debug = require('debug')('secure:server');
 const passport = require('passport');
+
+
 var app = express();
 
 const ConnectDB= require('./config/dbConfig');
@@ -19,8 +21,9 @@ ConnectDB();
 const { registerUser } = require("./app/registerUser");
 
 
-// registerUser({ OrgMSP: "org1MSP", userId: "pintu" });
+const user = registerUser({ OrgMSP: "org3MSP", userId: "ravi" });
 
+console.log({user})
 
 //Body parser of application/json
 app.use(bodyParser.json({limit:"50mb"}));
