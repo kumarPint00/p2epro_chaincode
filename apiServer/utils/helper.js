@@ -38,6 +38,7 @@ exports.USER_STATUS = {
 exports.CHAINCODE_NAMES = {
 	LOAN: 'Loan',
 	SHIPMENT:'Shipment',
+	MINETRACE:'MineTrace'
 
 }
 

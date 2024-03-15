@@ -38,12 +38,29 @@ const Shipment_SCHEMA = [
   { "name": "Value" },
 ];
 
+const MineTrace_SCHEMA = [
+  { "name": "Id" },
+  { "name": "CreatedOn" },
+  { "name": "CreatedBy" },
+  { "name": "IsDelete" },
+  { "name": "IsHidden" },
+  { "name": "State" },
+  { "name": "Coordinates" },
+  { "name": "Severity" },
+  { "name": "TypeOfMine" },
+  { "name": "MineFoundDate" },
+  { "name": "Time" },
+  { "name": "Description" },
+];
+
 exports.getSchema = (chaincodeName) => {
   switch (chaincodeName) {
     case CHAINCODE_NAMES.LOAN:
       return Loan_SCHEMA;
     case CHAINCODE_NAMES.SHIPMENT:
       return Shipment_SCHEMA;
+    case CHAINCODE_NAMES.MINETRACE:
+        return MineTrace_SCHEMA;
 
     default:
       throw new CustomError({

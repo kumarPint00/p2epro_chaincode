@@ -1,0 +1,36 @@
+/* MineTracingApp.css */
+.mine-tracing-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .grid-container {
+    display: inline-block;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .mine {
+    background-color: #ffcccc;
+  }
+  
+  .empty {
+    background-color: #ccccff;
+  }
+  

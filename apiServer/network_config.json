@@ -47,7 +47,7 @@
 					"eventSource": false
         }
      },
-      "chaincodes": [ "Loancc:v1.0", "Shipmentcc:v1.0" ]
+      "chaincodes": [ "Loancc:v1.0", "Shipmentcc:v1.0", "MineTracecc:v1.0" ]
       }
     },
 	"organizations": {
