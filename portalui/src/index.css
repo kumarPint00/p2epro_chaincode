@@ -1,0 +1,57 @@
+/* Updated index.css with an eye-soothing color scheme */
+
+body {
+  background-color: #f5f5f5; /* Soft gray background */
+}
+
+.registrationForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #b3c2bf; /* Soft green-gray border */
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.registrationForm h2 {
+  color: #4a5d68; /* Darker shade for contrast */
+  text-align: center;
+  margin-bottom: 16px; /* Added margin for spacing */
+}
+
+.registrationForm label {
+  color: #5d7b89; /* Soft, dark teal */
+  margin-bottom: 10px;
+  font-weight: 500; /* Slightly bolder font for readability */
+}
+
+.registrationForm input[type="text"],
+.registrationForm input[type="date"],
+.registrationForm select,
+.registrationForm textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #aac4c3; /* Soft, muted teal border */
+  background-color: #eef7f6; /* Very light teal background */
+  color: #4a5d68; /* Darker text for readability */
+}
+
+.registrationForm button {
+  padding: 10px;
+  background-color: #8cbcb9; /* Soft, soothing green */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.registrationForm button:hover {
+  background-color: #74a9a7; /* Slightly darker green on hover */
+}
