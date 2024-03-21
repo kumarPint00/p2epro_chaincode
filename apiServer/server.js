@@ -21,9 +21,9 @@ ConnectDB();
 const { registerUser } = require("./app/registerUser");
 
 
-const user = registerUser({ OrgMSP: "org3MSP", userId: "ravi" });
+//const user = registerUser({ OrgMSP: "org3MSP", userId: "ravi" });
 
-console.log({user})
+//console.log({user})
 
 //Body parser of application/json
 app.use(bodyParser.json({limit:"50mb"}));

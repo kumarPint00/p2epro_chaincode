@@ -27,7 +27,16 @@ const ShipmentSchema= new schema({
     Quantity:String,
     Value:String
 })
+const MineInfoSchema = new mongoose.Schema({
+    state: String,
+    coordinates: String,
+    severity: String,
+    type: String,
+    mineFoundDate: Date,
+    description: String,
+  })
+  
+module.exports = mongoose.model('MineInfo', MineInfoSchema);
+//module.exports = mongoose.model('LoanModel', LoanModel);
 
-module.exports = mongoose.model('LoanModel', LoanModel);
-
-module.exports = mongoose.model('ShipmentModel', ShipmentSchema);
+//module.exports = mongoose.model('ShipmentModel', ShipmentSchema);

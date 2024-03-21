@@ -1,5 +1,6 @@
 module.exports = {
-    mongoURI: "mongodb://localhost:27017/testv1",
+    mongoURI:"mongodb+srv://ayeshajui:Bangladesh_1971@clusterjui.vrplcks.mongodb.net/?retryWrites=true&w=majority&appName=clusterjui",
+    
     secretOrKey: 'thisismysecret',
     EMAIL_CONFIG: {
         SMTP_HOST: "smtp.gmail.com",
